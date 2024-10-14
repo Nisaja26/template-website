@@ -1,0 +1,26 @@
+h2 {
+    color: rgb(45, 44, 44);
+    text-transform: uppercase;
+}
+
+/* Gaya untuk bilah navigasi atas */
+.topnav {
+    overflow: hidden; /* Menyembunyikan konten yang melampaui ukuran elemen */
+    background-color:rgb(37, 18, 37); /* Warna ungu tua */
+  }
+  
+  /* Gaya untuk tautan di dalam bilah navigasi */
+  .topnav a {
+    display: block; /* Menampilkan tautan sebagai blok */
+    color: rgb(242, 242, 242); /* Warna teks putih */
+    text-align: center; /* Mengatur teks agar rata tengah */
+    padding: 14px 16px; /* Menambahkan padding di dalam tautan */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  }
+  
+  /* Ubah warna tautan saat di-hover */
+  .topnav a:hover {
+    background-color: rgb(240, 208, 214); /* Warna pink dengan transparansi */
+    color: black; /* Warna teks berubah menjadi hitam */
+    transition-duration: 0.4s; /* Efek transisi */
+  }
